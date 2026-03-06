@@ -1,3 +1,4 @@
 x=10
 y=90
-print(x+y)
+z=100
+print(x+y+Z)
