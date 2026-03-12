@@ -14,18 +14,16 @@ if even split into half, then check 2 of having equal vowles'''
 #     print("both are same")    
     
     
-# '''s string '''
-# s1="aaabbbccdddaa"
-# d={}
-# for i in s1:
-#     if i in d:
-#         d[i] +=1
-#     else:
-#         d[i]=1
-# print(d)
-# for k,v in d.items():
-#     print(f"{k}{v}",end='')
-# print()
+'''s string '''
+s1="aaabbbccdddaa"
+d={}
+for i in s1:
+    if i in d:
+        d[i] +=1
+    else:
+        d[i]=1
+print(d)
+for k,v in d.items():
+    print(f"{k}{v}",end='')
+print()
         
-import tensorflow as tf
-print(tf.__version__)
