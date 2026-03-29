@@ -26,4 +26,12 @@ print(d)
 for k,v in d.items():
     print(f"{k}{v}",end='')
 print()
+
+
+'''                                'PROBLEM SLOVINGS AJAY SIR'
+valid and in valid variables
+starts with underscore'''
+n=10
+_=10
+
         
