@@ -28,7 +28,7 @@ for k,v in d.items():
 print()
 
 
-'''                                'PROBLEM SLOVINGS AJAY SIR'
+'''                                'PROBLEM SOLVING AJAY SIR'
 valid and in valid variables
 starts with underscore'''
 n=10

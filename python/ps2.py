@@ -133,8 +133,27 @@ print('----------------------')
 # for i in lst:
 #     if i not in lst1:
 #         lst1.append(i)
-# print(lst1)     
-   
+# print(lst1)   
+#-------------------------------  
+# total=0
+# for i in range(2,101,2):
+#     total+=i
+# print(total)   
+#-------------------------------
+a=[122,9089,565,8768,939,900,1221,430]
+b=[]
+for i in a:
+    
+    first=""
+    last=""
+    for d in str(i):
+        if first=="":
+            first=d
+        last=d
+    if first==last:
+        b.append(i)
+        print(b)    
+
 
     
         
