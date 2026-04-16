@@ -1,4 +1,4 @@
-#---------------------
+#----------------------------------------------
 #square
 n=4
 # m=10
@@ -11,7 +11,7 @@ n=4
 #     for j in range(1,n+1):print("*",end=" ")
 #     for k in range(1,m+1):print("*",end=" ")
 #     print()
-#--------------------------------------------
+#----------------------------------------------
 #right angled triangle
 # for i in range(1,n+1):
 #     for j in range(i):print("*",end=" ")
@@ -82,22 +82,60 @@ n=4
 #     print()
 #--------------------------------------
 #butterfly=
-for i in range(1,n-1+1):
+# for i in range(1,n-1+1):
     
-    for j in range(i):print("*",end=" ")
-    for j in range(n-i):print(" ",end=" ")
-    for j in range(n-i):print(" ",end=" ")
-    for j in range(i): print("*",end=" ")
-    for j in range(n-i):print(" ",end=" ")
-    print()
-for i in range(n,0,-1):
+#     for j in range(i):print("*",end=" ")
+#     for j in range(n-i):print(" ",end=" ")
+#     for j in range(n-i):print(" ",end=" ")
+#     for j in range(i): print("*",end=" ")
+#     for j in range(n-i):print(" ",end=" ")
+#     print()
+# for i in range(n,0,-1):
     
-    for j in range(i): print("*",end=" ")
-    for j in range(n-i):print(" ",end=" ")
-    for j in range(n-i):print(" ",end=" ")
-    for j in range(i): print("*",end=" ")
-    for j in range(n-i):print(" ",end=" ")
-    print()
+#     for j in range(i): print("*",end=" ")
+#     for j in range(n-i):print(" ",end=" ")
+#     for j in range(n-i):print(" ",end=" ")
+#     for j in range(i): print("*",end=" ")
+#     for j in range(n-i):print(" ",end=" ")
+#     print()
+
+# chocolates and  find no.of wrapper covers
+# amount=21
+# wrappers=amount
+# r=amount
+# while wrappers>=3:
+#     extra=wrappers//3
+#     r+=extra
+#     wrappers=extra+wrappers%3
+# print(r)
+
+
+# l=list(map(int,input("Enter a number:").split()))
+l=[1,2,3]  #[1,2,4]
+# s,s1='',[]
+# for i in l:
+#     s+=str(i)
+# m=int(s)+1
+# for j in str(m):
+#     m=str(j)
+#     s1.append(int(m))
+# print(s1)
+# l1=[]
+# s1=0
+# for i in l:
+#     s1=10*s1+i
+# s1+=1
+# while s1>0:
+#     r=s1%10
+#     s1=s1//10
+#     l1+=[r]
+# print(l1[::-1])
+    
+    
+   
+    
+
+        
 
 
 
