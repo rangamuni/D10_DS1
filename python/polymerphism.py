@@ -90,18 +90,18 @@ types:
 # a.add(1,2,3,4)
 
 # # or
-# class A(object):
-#     def add(self,*nums):
-#         sum1=0
-#         for n in nums:
-#             sum1=sum1+n
-#         print(sum1)
-#         # print(sum(nums))
-# a=A()
-# a.add(12)
-# a.add(1,2)
-# a.add(1,2,3)
-# a.add(1,2,3,4)
+class A(object):
+    def add(self,*nums):
+        sum1=0
+        for n in nums:
+            sum1=sum1+n
+        print(sum1)
+        # print(sum(nums))
+a=A()
+a.add(12)
+a.add(1,2)
+a.add(1,2,3)
+a.add(1,2,3,4)
 
 'operator overloading'
 'specialized/ Dunder -> double underscore / magic '
