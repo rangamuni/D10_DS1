@@ -1,6 +1,6 @@
 #----------------------------------------------
 #square
-n=4
+# n=4
 # m=10
 # for i in range(1,n+1):
 #     for j in range(1,n+1):print("*",end=" ")
@@ -69,7 +69,7 @@ n=4
 #     for j in range(n-i):print(" ",end=' ')
 #     for i in range(i):print("*",end=" ")
 #     print()
-# #-------------------------
+
 # print("----------------------------")
 #Sandglass Pattern
 # for i in range(n,1,-1):
@@ -111,7 +111,7 @@ n=4
 
 
 # l=list(map(int,input("Enter a number:").split()))
-l=[1,2,3]  #[1,2,4]
+# l=[1,2,3]  #[1,2,4]
 # s,s1='',[]
 # for i in l:
 #     s+=str(i)
@@ -130,12 +130,25 @@ l=[1,2,3]  #[1,2,4]
 #     s1=s1//10
 #     l1+=[r]
 # print(l1[::-1])
-    
-    
-   
-    
+'p=5  2 3 5 7 11'
+# n=int(input("Enter a number: "))
+# def is_prime(n):
+#     if n<2:
+#         return False
+#     count=0
+#     for j in range(1,n+1):
+#         if n%j==0:               
+#             count+=1
+#     if count==2:
+#         return True
+# x=1
+# while n>0:
+#     if is_prime(x)==True:
+#         print(x)
+#         n-=1
+#     x+=1
 
-        
+
 
 
 

@@ -19,15 +19,16 @@ class Car:
         if self.speed<=100:
             print(f"{self.speed+10} Accelerate..!")
     def stop(self):
-        if self.speed>=40:
+        if self.speed>=10:
             print(f"{self.speed-10} brake..!")
-c=Car("suzuki",4900000,"tata","white",50)
+c=Car("suzuki",4900000,"tata","white",0)
 c.info()
 c.start()
 c.stop()
 print("="*22)
-c3=Car("tata",145000,"tata","black&white",40)
-c3.info()
-c3.start()
-c3.stop()
+# c3=Car("tata",145000,"tata","black&white",40)
+# c3.info()
+# c3.start()
+# c3.stop()
+
     
