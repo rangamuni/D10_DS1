@@ -175,7 +175,7 @@
 #         ch=''
 #         dig=''
 #         print(res,end='')
-print()
+# print()
 # s3='a[10]b[1]' #aaaaaaaaaab
 # s1='ab[2]bc[1]c[2]'
 # s='a[0]b[3]c[2]d[1]' #aaaabbbccd
@@ -202,23 +202,68 @@ print()
 #         res+=str(d[ch])
 #         ch=''
 # print(res)
-n=5
-for i in range(1,n+1):
-    for j in range(n-i):print("   ",end='')
-    for j in range(i-1): print(" * ",end='')
-    for j in range(i): print(" * ",end='')
-    for j in range(n-i):print("   ",end='')
-    print()
+# n=5
+# for i in range(1,n+1):
+#     for j in range(n-i):print("   ",end='')
+#     for j in range(i-1): print(" * ",end='')
+#     for j in range(i): print(" * ",end='')
+#     for j in range(n-i):print("   ",end='')
+#     print()
 # for i in range(n-1,0,-1):
 #     for j in range(n-i):print("   ",end='')
 #     for j in range(i-1): print(" * ",end='')
 #     for j in range(i): print(" * ",end='')
 #     for j in range(n-i):print("   ",end='')
 #     print()
-    
+'Basic problems'
+'1'
+# lst=[3,7,17,2,14]
+# res=[]
+# r=[]
+# for i in lst:
+#     if i%2==0:
+#         res.append(i)
+#     else:
+#         r.append(i)
+# print(res)
+# print(r)
+'2'
+# lst=[3,14,16,6,10] #[17,7,11]
+# res=[]
+# for i in lst:
+#     res.append(i+1)
+# # factor checking
+# r=[]
+# for j in res:
+#     c=0
+#     for i in range(2,j+1):
+#         if j%i==0:
+#             c+=1
+#     if c==1:
+#         r.append(j)
+# print(r)
+'3'
+# lst=[5,9,8,16,10] #res=[5,9,16]
+# r=[]
+# for i in lst:
+#     # checking factors for lst
+#     f=0
+#     for j in range(1,i+1):
+#         if i%j==0 :
+#             f+=1  #2,3,4,5,4
+#     # checking prime for f 
+#     c=0
+#     for k in range(1,f):
+#         if f%k==0:
+#             c+=1
+#     print(c)
+#     if c==1 and f>1:
+#         r.append(i)
+# print(r)   
 
-
-
-
+# 'prime'
+# a=10
+# n=lambda a : 'P' if all(a%i!=0 for i in range(2,a)) else 'NP'  
+# print(n(a))
 
 

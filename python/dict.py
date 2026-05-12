@@ -31,38 +31,44 @@ METHODS:
 # dict={1:'one','string':'ranga',3.14:10.8,True:False,3+4j:4+5j,None:None,(1,2,3):[1,2,3],frozenset([1,2,3]):frozenset([1,2]),2:[1,1],3:{2,2},4:(3,3),5:{1:'one'}}
 #----------representation---
 # d={}
-# dict=dict([(1,2)])
-#-------------------------------
-# dict[13]=2
+# dict=dict([[1,2]])
 # print(dict)
-# dict[2]=(33,33)
+#-------------------------------
+# dict[90]=2
+# print(dict)
+# dict[2]=[33,33]
 # print(dict)
 #---------------
 #METHODS:
 #--------
-# d={1:"one",2:"two",3:'three'}
+d={1:"one",2:"two",3:'three'}
 
 #keys(),v,i
 # print(d.keys())
 # print(d.values())
 # print(d.items())
 
-#update()
-# d.update({4:"two"})
+# #update()
+# d.update(n="two",_='nine')
+# d.update(one="hello", two="world",three="ptyhon")
 # d.update({1:"two"})
+# d.update({4:"two"})
 # print(d)
+# print(d.keys())
 
 #setdefault
 # print(d.setdefault(1,'five'))
 # print(d)
 
-#get()
-# dict[13]=2 ---throws error
-# print(d.get(4))--it gives None if we can not enter anything
+# #get()
+# print(d[1]) #---throws error when u give un noun key
+# print(d.get(4))  #--it gives None if we can not enter anything
 # print(d.get(4,"no value exits!!"))
+print(d.get(7,None))
 
 #pop() and popitem()
 # print(d.pop(2))
+# print(d)
 # print(d.popitem())
 
 #clear()
@@ -71,13 +77,14 @@ METHODS:
 #copy()
 # print(d)
 # print(id(d))
-# print(d.copy())
+# d=d.copy()
+# print(d)
 # print(id(d))
 
-#fromkeys()
-lst=1,             #must be iterable int not iterable if lst=1 -it's not works
-print(dict.fromkeys(lst,0))
-
+# #fromkeys()
+# lst=1,             #must be iterable int not iterable if lst=1 -it's not works
+# print(dict.fromkeys(lst,0))
+# print(dict.fromkeys(6,lst)) # not works
 
 
 
