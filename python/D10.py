@@ -256,7 +256,6 @@
 #     for k in range(1,f):
 #         if f%k==0:
 #             c+=1
-#     print(c)
 #     if c==1 and f>1:
 #         r.append(i)
 # print(r)   
@@ -265,5 +264,95 @@
 # a=10
 # n=lambda a : 'P' if all(a%i!=0 for i in range(2,a)) else 'NP'  
 # print(n(a))
+'Max number in a list''-------------------------------------------------------------------------------------'
+# lst=[12,89,22,34,56,6,56,89]  #[56]
+# # lst.sort()
+# # print(lst)
+# high=second_high=third=four=0
+# for i in lst:
+#     if i>high:
+#         high=i
+#     elif i>high:
+#         four=third
+#         third=second_high
+#         second_high=high
+#         high=i
+#     elif i>second_high and i!=high:
+#         four=third
+#         third=second_high
+#         second_high=i
+#     elif i>third and i!=second_high and i!=high:
+#         four=third
+#         third=i
+#     elif i>four and i!=third and i!=second_high and i!=high:
+#         four=i
+# print(high)
+# print(second_high)
+# print(third)
+# print(four)
 
 
+# max=[]
+# for i in lst:
+#     for j in lst:
+#         if i<j:
+#             i=j
+# max.append(i)
+# print(max)
+''
+# res=[]
+# for i in lst:
+#     for j in lst:
+#         if j>i:
+#             i=j
+# res=res+[i]
+# print(res)
+''
+# n=int(input("Enter a number"))
+# if n%2==0:
+#     print("E")
+# else:
+#     print("O")
+'largest of three numbers'
+# a,b,c=map(int,input("Enter a numbers:").split())
+# if a>b and a>c:
+#     print(a)
+# elif b>a and b>c:
+#     print(b)
+# else:
+#     print(c)
+
+'2'
+# lst=[12,89,22,34,56,6,56,89]  #[56]
+# f=s=t=0
+# for i in lst:
+#     if i>f:
+#         t=s
+#         s=f
+#         f=i
+#     elif i>s and i!=f:
+#         t=s
+#         s=i
+#     elif i>t and i!=s and i!=f:
+#         t=i
+# print(s)
+# print(t)
+'13-05-26'
+# lst=[123,456,243,768,129] #res =[123,456,129]
+# res=[]
+# for i in lst:
+#     for j in str(i):
+#         print(j,end=' ')
+'7'
+
+def s1(nums):
+    f=s=0
+    for i in nums:
+        if i>f:
+            s=f
+            f=i
+        elif i>s and i!=f:
+            s=i
+    return s
+nums=[2,1,3,4,8,6,4]
+print(s1(nums))

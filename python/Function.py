@@ -41,9 +41,16 @@ Types of Function:
 # n1=lambda a : 5 if 0 else 1
 # print(n1(a))
 'closure'
-def greet():
+# def greet():
+#     x=10
+#     def show():
+#         print(x)
+#     show()
+# greet()
+def outer():
     x=10
-    def show():
+    def inner():
         print(x)
-    show()
-greet()
+    return inner
+res=outer()
+res()

@@ -48,7 +48,7 @@
 # print(s.lstrip())
 # print(s.rstrip())
 # print(s.count('z'))
-s = '²'
+s = '9' #'²'
 print(s.isdigit())
 print(s.isdecimal())
 # s="hello world"
