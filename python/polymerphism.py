@@ -90,18 +90,18 @@ types:
 # a.add(1,2,3,4)
 
 # # or
-class A(object):
-    def add(self,*nums):
-        sum1=0
-        for n in nums:
-            sum1=sum1+n
-        print(sum1)
-        # print(sum(nums))
-a=A()
-a.add(12)
-a.add(1,2)
-a.add(1,2,3)
-a.add(1,2,3,4)
+# class A(object):
+#     def add(self,*nums):
+#         sum1=0
+#         for n in nums:
+#             sum1=sum1+n
+#         print(sum1)
+#         # print(sum(nums))
+# a=A()
+# a.add(12)
+# a.add(1,2)
+# a.add(1,2,3)
+# a.add(1,2,3,4)
 
 'operator overloading'
 'specialized/ Dunder -> double underscore / magic '
@@ -127,23 +127,23 @@ a.add(1,2,3,4)
 # print(a+b)
 # print(n1+n2) #'n1.__add__(n2) -> manual ga kadhu automatic call avtundi '
 
-# a=10
-# b=20
-# c=90
-# class add1:
-#     def __init__(self,x,y,z):
-#         self.x=x
-#         self.y=y
-#         self.z=z
-#     def __add__(self,others):
-#         return add1(self.x + others.x,self.y + others.y,self.z + others.z)
-#     def __str__(self):
-#         return f'{self.x,self.y,self.z}'
-# n1=add1(12,11,10)
-# n2=add1(12,11,10)
-# n3=add1(12,11,10)
-# print(a+b+c)
-# print(n1+n2+n3)
+a=10
+b=20
+c=90
+class add1:
+    def __init__(self,x,y,z):
+        self.x=x
+        self.y=y
+        self.z=z
+    def __add__(self,others):
+        return add1(self.x + others.x,self.y + others.y,self.z + others.z)
+    def __str__(self):
+        return f'{self.x,self.y,self.z}'
+n1=add1(12,11,10)
+n2=add1(12,11,10)
+n3=add1(12,11,10)
+print(a+b+c)
+print(n1+n2+n3)
 
 class add1:
     def __init__(self,x):

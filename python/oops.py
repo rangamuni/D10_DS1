@@ -11,7 +11,7 @@ but apply only for small project
 
 3. oops:
 -----
-object oriented programming languages--used for large bulit-in projects
+object oriented programming languages--used for large built-in projects
 it is a programming approach using class and objects
 class is a blue print of object      ---imaginary planning
 object is an instance of class      ---physical we can tough 

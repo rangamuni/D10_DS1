@@ -24,7 +24,7 @@ Types of Function:
 #     return inner
 # o=outer()
 # o()
-'RollBack Function'
+'callBack Function'
 # def greet(name):
 #     print(name,"hello!!")
 # def show(func):
