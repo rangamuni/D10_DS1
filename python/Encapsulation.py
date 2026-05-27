@@ -25,20 +25,20 @@ private   ->same class(within class)           -> self.__private
 # print(b.__pin)        # not supported
 
 'Getter and Setter-----------------------------'
-class Student():
-    def __init__(self,name,marks):
-        self.name=''
-        self.__marks=0
-    #setters
-    def setter(self,n,m):
-        self.__name=n
-        self.__marks=m
-    # Getter
-    def get_marks(self):
-        return self.__name,self.__marks
-s=Student('ranga',35)
-s.setter('abhi',90)
-print('name'',''marks:' , s.get_marks())
+# class Student():
+#     def __init__(self,name,marks):
+#         self.name=''
+#         self.__marks=0
+#     #setters
+#     def setter(self,n,m):
+#         self.__name=n
+#         self.__marks=m
+#     # Getter
+#     def get_marks(self):
+#         return self.__name,self.__marks
+# s=Student('ranga',35)
+# s.setter('abhi',90)
+# print('name'',''marks:' , s.get_marks())
     
 
 

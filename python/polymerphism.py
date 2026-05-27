@@ -126,7 +126,6 @@ types:
 # n2=add1(12)
 # print(a+b)
 # print(n1+n2) #'n1.__add__(n2) -> manual ga kadhu automatic call avtundi '
-
 a=10
 b=20
 c=90

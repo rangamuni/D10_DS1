@@ -18,14 +18,16 @@ from abc import ABC,abstractmethod
 class Teacher(ABC):  # ABC ->Abstract Base Class
     @abstractmethod
     def teach(self):
-        print("Teach")
+        pass
     def take(self):
         print("Teacher can take attendance")
 class PhysicsTeacher(Teacher):
+    def math(self):
+        pass
     def teach(self):
         pass
     def take(self):
-        pass
+        print("Teacher can take attendance")
 class ChemistryTeacher(Teacher):
     def teach(self):
         print("Chemistry Teacher can teach")
