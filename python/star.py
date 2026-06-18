@@ -1,11 +1,11 @@
-for j in range(1,4):
+for j in range(3):
     for i in range(3):
         print(i+j,end=' ')
     print()
 print('________')
     
-#a=65 to ---
-    
+#A=65 to ---
+#a=97 to ---    
 # """patterns first 3 rows and 
 # each row 3 stars"""
 

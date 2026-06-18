@@ -75,7 +75,7 @@ private   ->same class(within class)           -> self.__private
 # class Student (object):
 #     clg_name="10k coders"        # class Attribute
 #     def __init__(self,id,name):
-#         self.id=id               # instance Attribute
+#         self.id=id               # 
 #         self.name=name
 #         age=22                   # Local Attribute
 #         print(age)

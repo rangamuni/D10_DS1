@@ -216,7 +216,46 @@ for i in range(len(s)):
         if is_palindrome(sub)==True:
             if len(sub)>len(max_sub):
                 max_sub=sub
-print(max_sub)       
+print(max_sub)    
+'# Check whether a number is a prime number 1 - 100'
+# n=100
+# i=1
+# while i <= n:
+#     j=1
+#     c=0
+#     for j in range(1,i+1):
+#         if i % j == 0:
+#             c+=1
+#         j+=1
+#     if c == 2:
+#             print(i)
+#     i+=1
+
+'LCM'
+# n1=12
+# n2=18
+# lcm=max(n1,n2)
+# while True:
+#     if lcm % n1 == 0 and lcm % n2 == 0:
+#         print(lcm)
+#         break
+#     lcm += 1
+'GCD'
+# n1=12
+# n2=18
+# gcd=1
+# i=1
+# while i <= n1 and i <= n2:
+#     if n1 % i == 0 and n2 % i == 0:
+#         gcd = i
+#     i +=1
+# print(gcd)
+from math import gcd
+n1=12
+n2=18
+print(gcd(n1,n2))
+lcm=(12*18)//gcd(12,18)
+print(lcm)
         
 
     

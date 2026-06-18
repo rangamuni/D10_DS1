@@ -40,8 +40,17 @@ def outer():
     def inner():
         global ip         # not supported for non local variable
         ip='something'
-        print(ip)
     inner()
     print(ip)
 outer()
 print(ip)
+
+# x =10 
+# def outer():
+#     x = 20
+#     def inner():
+#         x = 30
+#     print(x)
+#     inner()
+# print(x)
+# outer()

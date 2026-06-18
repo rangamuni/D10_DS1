@@ -18,7 +18,7 @@ def create_account():
             """
     crsr.execute(query,(name,balance))
     con.commit()   
-    print("Account Successfully Created..!") 
+    print("Generated Account Number:", crsr.lastrowid) 
     
 def deposit():
     ac_no = int(input("Enter Your Account Number: "))
